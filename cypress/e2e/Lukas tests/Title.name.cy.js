@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-describe('page should contain necessary texts', ()=>{
+describe('page should contain title -Tour of Heroes'  , ()=>{
 
 
 it('', ()=>{
@@ -11,9 +11,7 @@ it('', ()=>{
         cy.get('h1')
         .should('contain.text','Tour of Heroes')
 
-        cy.get('[ng-reflect-router-link="/detail/13"]')
-        .should('contain.text','Tour of Heroes')
-
+        
 
 
 
