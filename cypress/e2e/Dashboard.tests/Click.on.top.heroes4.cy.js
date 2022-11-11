@@ -1,7 +1,7 @@
 // <reference types="cypress" />
 
 
-describe('Click on the first top hero and check the inside if its all OK ', ()=>{
+describe('Click on the fourth top hero and check the inside if its all OK ', ()=>{
 
 
     it('', ()=>{
@@ -28,5 +28,22 @@ describe('Click on the first top hero and check the inside if its all OK ', ()=>
                cy.get('app-hero-detail > :nth-child(1) > :nth-child(5)')
                .click()
 
+
+
 })   
+})
+
+describe('Only to check the *go back* button ', ()=>{
+
+
+  it('', ()=>{
+
+    cy.visit('http://localhost:4200/')
+     cy.get('[ng-reflect-router-link="/detail/16"]')
+      .click()
+
+    cy.get('app-hero-detail > :nth-child(1) > :nth-child(4)')
+      .click()
+      
+})
 })

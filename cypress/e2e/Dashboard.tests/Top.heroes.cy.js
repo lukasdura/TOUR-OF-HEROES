@@ -1,7 +1,7 @@
 // <reference types="cypress" />
 
 
-describe('is title top heroes vissible on tha page', ()=>{
+describe('is the title top heroes vissible on tha page', ()=>{
 
 
     it('', ()=>{
