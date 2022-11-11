@@ -10,8 +10,10 @@ describe('check if Dashboard and Heroes are on the page', ()=>{
         cy.visit('http://localhost:4200/')
          cy.get('[routerlink]')
           .should('contain.text', 'Dashboard')
-           .should('contain.text', 'Heroes')
-            .should('have.length', '2')
+           .should('be.visible')
+            .should('contain.text', 'Heroes')
+             .should('be.visible')
+              .should('have.length', '2')
 
         
 })   
