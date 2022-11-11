@@ -28,20 +28,13 @@ describe('Click on the second top hero and check the inside if its all OK ', ()=
                cy.get('app-hero-detail > :nth-child(1) > :nth-child(5)')
                .click()
 
-})   
-})
+        cy.visit('http://localhost:4200/')
+         cy.get('[ng-reflect-router-link="/detail/14"]')
+          .click()
 
-describe('Only to check the *go back* button ', ()=>{
-
-
-  it('', ()=>{
-
-    cy.visit('http://localhost:4200/')
-    cy.get('[ng-reflect-router-link="/detail/14"]')
-      .click()
-
-    cy.get('app-hero-detail > :nth-child(1) > :nth-child(4)')
-      .click()
+        cy.get('app-hero-detail > :nth-child(1) > :nth-child(4)')
+         .click()
       
-})
+
+})   
 })
