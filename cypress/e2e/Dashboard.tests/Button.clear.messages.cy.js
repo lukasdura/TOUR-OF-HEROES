@@ -4,7 +4,7 @@
 describe('Check if works the button *Clear messages*', ()=>{
 
 
-    it('', ()=>{/__/
+    it('', ()=>{
 
 
         cy.visit('http://localhost:4200/')
@@ -12,5 +12,5 @@ describe('Check if works the button *Clear messages*', ()=>{
          .click()
           
          
-})   /__/
+})   
 })
