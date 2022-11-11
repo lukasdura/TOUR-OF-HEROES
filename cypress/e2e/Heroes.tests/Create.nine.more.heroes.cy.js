@@ -1,6 +1,6 @@
 // <reference types="cypress" />
 
-describe('Creating new hero', ()=>{
+describe('Creating nine news herous, in one test', ()=>{
 
     it('', ()=>{
 

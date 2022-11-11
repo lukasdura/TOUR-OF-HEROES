@@ -1,7 +1,7 @@
 // <reference types="cypress" />
 
 
-describe('check if Dashboard and Heroes are on the page', ()=>{
+describe('check if Dashboard and Heroes are on the page, and if they works', ()=>{
 
 
     it('', ()=>{
@@ -14,6 +14,15 @@ describe('check if Dashboard and Heroes are on the page', ()=>{
             .should('contain.text', 'Heroes')
              .should('be.visible')
               .should('have.length', '2')
+
+        cy.get('[routerlink="/dashboard"]')  
+        .click()    
+
+        cy.get('[routerlink="/heroes"]')
+        .click()
+        cy.go('back')
+
+
 
         
 })   
