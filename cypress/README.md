@@ -15,7 +15,7 @@ __Few.tests.runing.on.diferent.devices__
 
 The project is on GitHub : https://github.com/lukasdura/TOUR-OF-HEROES.git
 
-The project has three branches __main__  -  __final-version__  -  __seruce-version__
+The project has three branches __main  - final-version  -  seruce-version__
 
 __main branch__ - Here are created all UI tests.
 
@@ -29,30 +29,74 @@ The tests are runing in section Actions on CI on GitHub Actions.
 
 __Dashboards.tests__
 
-* Button.clear.messages.cy.js
+* __Button.clear.messages.cy.js__ -  Check if works the button "Clear messages"
 
-* Click.on.dashboard.cy.js
+* __Click.on.top.heroes1.cy.js__ - Click on the first top hero and check the inside of Hero if it is all OK
 
-* Click.on.top.heroes1.cy.js
+* __Click.on.top.heroes2.cy.js__ - Click on the second top hero and check the inside of Hero if it is all OK
 
-* Click.on.top.heroes2.cy.js
+* __Click.on.top.heroes3.cy.js__ - Click on the third top hero and check the inside of Hero if it is all OK
 
-* Click.on.top.heroes3.cy.js
+* __Click.on.top.heroes4.cy.js__ - Click on the fourth top hero and check the inside of Hero if it is all OK
 
-* Click.on.top.heroes4.cy.js
+* __Dashboard.and.Heroes.cy.js__ - Check if Dashboard and Heroes are on the page, and if they works
 
-* Dashboard.and.Heroes.cy.js
+* __Hero.search.cy.js__          - Check if the searchbar is working
 
-* Hero.search.cy.js
+* __Title.massages.cy.js__
 
-* Title.massages.cy.js
+* __Title.name.cy.js__
 
-* Title.name.cy.js
+* __Top.heroes.cy.js__
 
-* Top.heroes.cy.js
+* __Visit.page.cy.js__
 
-* Visit.page.cy.js
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+__Heroes.tests__
+
+* __Click.on.heroes.cy__ - Check if it is possible to click on Heroes
+
+* __Create.nine.more.heroes.cy__ - Creating nine news heroes, in one test
+
+* __Create.one.new.hero.cy__ - Creating one new hero
+
+* __Delete.all.heroes.cy__ - Deleting all heroes in one test
+
+* __Delete.one.hero.cy__ - Deleting one hero in  test
+
+* __Check.heroes.page.cy__ - Only visit the hero page
+
+* __Check.titles.texts.buttons.cy__ - Check titles, texts and buttons on page
+
+* __Opening.and.checking.eight.hero.cy__ - Click on the hero number 19 and check the inside of Hero if it is all OK
+
+
+* __Opening.and.checking.fifth.hero.cy__ - Click on the hero number 16 and check the inside of Hero if it is all OK 
+
+* __Opening.and.checking.first.hero.cy__ - Click on the hero number 12 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.fourth.hero.cy__ - Click on the hero number 15 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.ninth.hero.cy__ - Click on the hero number 20 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.second.hero.cy__ - Click on the hero number 13 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.seventh.hero.cy__ - Click on the hero number 18 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.sixth.hero.cy__ - Click on the hero number 17 and check the inside of Hero if it is all OK
+
+* __Opening.and.checking.third.hero.cy__ - Click on the hero number 14 and check the inside of Hero if it is all OK
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+__Few.tests.runing.on.diferent.devices__
+
+* __diferent.devices.resolutions.cy__
+
+* __run.tests.in.deferent.browsers.cy__
 
 
 
