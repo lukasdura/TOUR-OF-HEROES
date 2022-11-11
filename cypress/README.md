@@ -41,7 +41,7 @@ __Dashboards.tests__
 
 * __Dashboard.and.Heroes.cy.js__ - Check if Dashboard and Heroes are on the page, and if they works
 
-* __Hero.search.cy.js__          - Check if the searchbar is working
+* __Hero.search.cy.js__  -FIRST TEST -testing if the searchbar is working. SECOND TEST-testing if the automatically offering a response is working
 
 * __Title.massages.cy.js__
 
@@ -94,9 +94,9 @@ __Heroes.tests__
 
 __Few.tests.runing.on.diferent.devices__
 
-* __diferent.devices.resolutions.cy__
+* __diferent.devices.resolutions.cy__ - Run the same test on  diferent devices/resolution 
 
-* __run.tests.in.deferent.browsers.cy__
+* __run.tests.in.deferent.browsers.cy__ - Run the same test on  diferent browsers chrome/electron
 
 
 
