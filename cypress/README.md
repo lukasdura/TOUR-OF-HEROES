@@ -1,22 +1,62 @@
-Tests are created in folfer Cypress/e2e. 
+ __TOUR OF HEROES__ 
+
+
+
+
+Tests are created in folfer __Cypress/e2e__.
 
 Tests are divided into three folders. 
 
--- Dashboards.tests --
+__Dashboards.tests__
 
--- Heroes.tests --   
+__Heroes.tests__ 
 
--- Few.tests.runing.on.diferent.devices --
+__Few.tests.runing.on.diferent.devices__
 
-The project is on github : https://github.com/lukasdura/TOUR-OF-HEROES.git
+The project is on GitHub : https://github.com/lukasdura/TOUR-OF-HEROES.git
 
-The project has three branches -- main -- -- final version --  -- seruce version --
+The project has three branches __main__  -  __final-version__  -  __seruce-version__
 
--- main branch - Here are created all UI tests.
+__main branch__ - Here are created all UI tests.
 
--- final version - In this branch is broken app  Tour of heroes. I tried to add to the app "Building a template-driven form". Tried more times without success.
+__final version__ - In this branch is broken app  Tour of heroes. I tried to add to the app "Building a template-driven form". Tried more times without success.
 
--- secure version - Is only to be sure. I wanted to have one free and clear branch.
+__secure version__ - Is only to be sure. I wanted to have one free and clear branch.
+
+The tests are runing in section Actions on CI on GitHub Actions.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+__Dashboards.tests__
+
+* Button.clear.messages.cy.js
+
+* Click.on.dashboard.cy.js
+
+* Click.on.top.heroes1.cy.js
+
+* Click.on.top.heroes2.cy.js
+
+* Click.on.top.heroes3.cy.js
+
+* Click.on.top.heroes4.cy.js
+
+* Dashboard.and.Heroes.cy.js
+
+* Hero.search.cy.js
+
+* Title.massages.cy.js
+
+* Title.name.cy.js
+
+* Top.heroes.cy.js
+
+* Visit.page.cy.js
+
+
+
+
+
 
 
 
