@@ -2,7 +2,7 @@ Tests are created in folfer Cypress/e2e.
 
 Tests are divided into three folders. 
 
-*Dashboards.tests*   
+--Dashboards.tests--
 
 *Heroes.tests*   
 
