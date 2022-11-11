@@ -2,8 +2,6 @@
 /// <reference types="cypress" />
 
 
-
-
 describe('is it possible to click on Heroes?', ()=>{
 
 

@@ -8,7 +8,7 @@ describe('Click on the first top hero and check the inside if its all OK ', ()=>
 
 
         cy.visit('http://localhost:4200/')
-         cy.get('[ng-reflect-router-link="/detail/13"]')
+         cy.get('[ng-reflect-router-link="/detail/14"]')
           .click()
 
            cy.contains('Details')
@@ -24,15 +24,9 @@ describe('Click on the first top hero and check the inside if its all OK ', ()=>
           cy.get('#hero-name')
            .click()
             .clear()
-             .type('Ragnar{enter}')
+             .type('Floky{enter}')
                cy.get('app-hero-detail > :nth-child(1) > :nth-child(5)')
                .click()
-         
-
-              
-               cy.get('.[id="hero-name"]')
-               .should('have.value','')
-
 
 })   
 })

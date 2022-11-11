@@ -27,12 +27,6 @@ describe('Click on the first top hero and check the inside if its all OK ', ()=>
              .type('Ragnar{enter}')
                cy.get('app-hero-detail > :nth-child(1) > :nth-child(5)')
                .click()
-         
-
-              
-               cy.get('.[id="hero-name"]')
-               .should('have.value','')
-
 
 })   
 })
