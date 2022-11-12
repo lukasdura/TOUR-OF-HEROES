@@ -40,7 +40,7 @@ The project has three branches __main  - final-version  -  seruce-version__
 
 __main branch__ - Here are created all UI tests.
 
-__final version__ - Branch created to add to the app "Building a template-driven form". Tried more times without success.
+__final version__ - Branch created to add to the app "Building a template-driven form". The implementation was unsuccessful.
 
 __secure version__ - Is only to be sure. I wanted to have one free and clear branch.
 
