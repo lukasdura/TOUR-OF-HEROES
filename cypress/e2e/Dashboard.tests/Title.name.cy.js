@@ -9,8 +9,8 @@ it('', ()=>{
     cy.visit('http://localhost:4200/')
         
         cy.get('h1')
-        .should('contain.text','Tour of Heroes')
-         .should('be.visible')
+         .should('contain.text','Tour of Heroes')
+          .should('be.visible')
 
 })
 })

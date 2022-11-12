@@ -33,15 +33,16 @@ describe('Check titles, texts and buttons on page', ()=>{
 
 
          cy.get('#new-hero')
-         .should('be.visible')
+          .should('be.visible')
 
          cy.get('.add-button')
           .should('be.visible')
            .should('contain.text','Add hero')
 
-           cy.get('.heroes')
-            .children()
-             .first().should('be.visible')
+         cy.get('.heroes')
+          .children()
+            .first().should('be.visible')
+             .next().should('be.visible')
               .next().should('be.visible')
                .next().should('be.visible')
                 .next().should('be.visible')
@@ -49,20 +50,19 @@ describe('Check titles, texts and buttons on page', ()=>{
                   .next().should('be.visible')
                    .next().should('be.visible')
                     .next().should('be.visible')
-                     .next().should('be.visible')
                       
-                      cy.get('.heroes')
+         cy.get('.heroes')
                        .children()
                         .should('have.length', '9')
 
-        cy.get(':nth-child(1) > h2')
-         .should('contain.text', 'Messages')
-          .should('be.visible')
+         cy.get(':nth-child(1) > h2')
+          .should('contain.text', 'Messages')
+           .should('be.visible')
 
-        cy.get('.clear')  
-        .should('contain.text', 'Clear messages')
-         .should('be.visible')
-          .click()
+         cy.get('.clear')  
+           .should('contain.text', 'Clear messages')
+            .should('be.visible')
+             .click()
 
 })
 })

@@ -4,7 +4,7 @@
 describe('check if the searchbar works', ()=>{
 
 
-    it('test only searchbar', ()=>{
+  it('test only searchbar', ()=>{
 
 
         cy.visit('http://localhost:4200/')
@@ -17,16 +17,16 @@ describe('check if the searchbar works', ()=>{
 })  
 
 
-it('testing searchbar and the automatically offering a response', ()=>{
+  it('testing searchbar and the automatically offering a response', ()=>{
 
 
-  cy.visit('http://localhost:4200/')
-   cy.get('#search-box')
-    .click()
-    .type('t')
+         cy.visit('http://localhost:4200/')
+          cy.get('#search-box')
+           .click()
+            .type('t')
 
-  cy.get(':nth-child(4) > a')
-   .click()
+         cy.get(':nth-child(4) > a')
+         .click()
      
 })
 })

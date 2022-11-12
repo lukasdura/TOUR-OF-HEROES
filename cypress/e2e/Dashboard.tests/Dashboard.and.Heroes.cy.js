@@ -20,6 +20,7 @@ describe('check if Dashboard and Heroes are on the page, and if they works', ()=
 
         cy.get('[routerlink="/heroes"]')
         .click()
+          
         cy.go('back')
 
 

@@ -14,9 +14,8 @@ describe('Creating new hero', ()=>{
            .type('Spiderman {enter}')
            
          
-           cy.get('.add-button')
-            .click('')
+        cy.get('.add-button')
+         .click('')
             
-
-    })
+})
 })

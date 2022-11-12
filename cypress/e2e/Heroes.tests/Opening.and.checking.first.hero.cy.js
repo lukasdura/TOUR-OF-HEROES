@@ -29,8 +29,8 @@ describe('Opening and check inside of hero 12', ()=>{
     cy.get('label')  
      .should('contain.text', 'Hero name:')
 
-     cy.get('#hero-name')
-      .click()
+    cy.get('#hero-name')
+     .click()
        .clear()
         .type('mr.rewritable{enter}')
           cy.get('app-hero-detail > :nth-child(1) > :nth-child(5)')

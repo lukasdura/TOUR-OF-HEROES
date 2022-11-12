@@ -8,10 +8,9 @@ describe('using own commands saved in commands.ts and index.d.ts', () => {
 
         cy.visit('http://localhost:4200')
 
-        cy.checkingThings()
-         cy.deleteAllheroes()
+         cy.checkingThings()
+          cy.deleteAllheroes()
          
         
-
     })
     })

@@ -1,4 +1,3 @@
-
 /// <reference types="cypress" />
 
 
@@ -9,8 +8,8 @@ it('', ()=>{
 
     cy.visit('http://localhost:4200/')
 
-    cy.get('[routerlink="/heroes"]')
-    .click()
+     cy.get('[routerlink="/heroes"]')
+      .click()
 
 })
 })
