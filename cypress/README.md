@@ -32,7 +32,7 @@ __Dashboards.tests__
 
 __Heroes.tests__ 
 
-__Few.tests.runing.on.diferent.devices__
+__Few.tests__
 
 The project is on GitHub : https://github.com/lukasdura/TOUR-OF-HEROES.git
 
