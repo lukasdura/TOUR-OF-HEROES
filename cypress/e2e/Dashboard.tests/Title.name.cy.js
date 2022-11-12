@@ -10,6 +10,7 @@ it('', ()=>{
         
         cy.get('h1')
         .should('contain.text','Tour of Heroes')
+         .should('be.visible')
 
 })
 })

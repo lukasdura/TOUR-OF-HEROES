@@ -71,7 +71,7 @@ describe('Run test in diferent browsers', () => {
 
 
   it('Run test on chrome', {browser:'electron'}, ()=>{
-  
+   
      
     cy.viewport('macbook-16')
      cy.visit('http://localhost:4200/heroes')
