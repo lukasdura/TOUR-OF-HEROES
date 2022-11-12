@@ -15,7 +15,7 @@ describe('Click on the fourth top hero and check the inside if its all OK ', ()=
             cy.contains('id:')
              cy.contains('Hero name')
               cy.contains('Messages')
-               cy.contains('HeroService')korben dalas otec
+               cy.contains('HeroService')
 
                
         cy.get('.clear')
